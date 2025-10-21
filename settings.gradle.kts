@@ -1,0 +1,1 @@
+rootProject.name = "qaguru-15-rest-api-1"
