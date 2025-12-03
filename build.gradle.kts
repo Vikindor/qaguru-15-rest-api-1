@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation(platform("org.junit:junit-bom:6.0.0-M2"))
+    testImplementation(platform("org.junit:junit-bom:6.0.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("io.rest-assured:rest-assured:5.5.6")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
