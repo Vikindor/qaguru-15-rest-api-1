@@ -10,10 +10,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation("com.codeborne:selenide:7.10.1")
+    testImplementation("com.codeborne:selenide:7.12.2")
     testImplementation(platform("org.junit:junit-bom:6.0.0-M2"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    testImplementation("io.rest-assured:rest-assured:5.5.2")
+    testImplementation("io.rest-assured:rest-assured:5.5.6")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     testRuntimeOnly("org.slf4j:slf4j-simple:2.0.17")
 }
